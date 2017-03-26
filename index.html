@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+  </head>
+  <body>
+    <h1 style="color:#33FFA5">Articulos:</h1>
+    <hr style="color: #0056b2;" width="100%" />
+    <div>
+      <h1> Crear Articulo</h1>
+      <form>
+        <table>
+          <td><input type="button" value="Texto Grande"/></td>
+          <td><input type="button" value="Texto Mediano"/></td>
+          <td><input type="button" value="Texto Chico"/></td>
+          <td><input type="button" value="Color de Texto"/></td>
+          <td><input type="button" value="Color de Fondo"/></td>
+          <td><input type="button" value="Alinear Izquierda"/></td>
+          <td><input type="button" value="Centrar"/></td>
+          <td><input type="button" value="Alinear Derecha"/></td>
+        </table>
+        <textarea name="comentario" rows="6" cols="110" id ="textoarea" oninput="mostrarTexto()"> </textarea>
+        <hr style="color: #0056b2;" width="100%" />
+        <h2> Contenido </h2>
+        <p id = "textoAbajo"></p>
+        <td><input type="button" value="Enviar"/></td>
+      </form>
+    </div>
+
+  <script src="assets/js/libro.js"></script>
+  </body>
+</html>
